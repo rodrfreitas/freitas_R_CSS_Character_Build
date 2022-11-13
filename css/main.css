@@ -19,7 +19,7 @@ body {
 /* style the header */
 
 header {
-  background-color: red;
+  background-color: rgb(255, 69, 69);
   position: sticky;
   top: 0;
   text-align: center;
@@ -33,7 +33,7 @@ header {
   background-color: #000000a6;
 
   /* add a background image to the nav element */
-  background-image: url('../images/characters_art_mas_mob_01.jpeg');
+  background-image: url('../images/hero_h_pc.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
@@ -62,7 +62,7 @@ header {
 .sprite{
   width: 150px;
   height: 150px;
-  background-image: url(../images/marvelSprites.jpg);
+  background-image: url(../images/smashSprites.jpg);
 }
 
 .sprite:hover {background-position-y: -150px !important;}
@@ -121,8 +121,8 @@ footer{
 
   background-color: rgba(0,0,0,0.85);
   background-repeat: no-repeat;
-  background-position: 40px bottom;
-  background-size: 55vh;
+  background-position: 40px center;
+  background-size: 65vh;
 }
 
 .lb_close{
@@ -158,12 +158,28 @@ footer{
   padding-top: 2em;
 }
 
-#lightBox{
-  background-image: url("../images/Cap_LB_Bg.png");
+#lightBoxMario{
+  background-image: url("../images/mario_bg.png");
 }
 
-#lightBox2{
-  background-image: url("../images/Thor_LB_Bg.png");
+#lightBoxDk{
+  background-image: url("../images/dk_bg.png");
+}
+
+#lightBoxLink{
+  background-image: url("../images/link_bg.png");
+}
+
+#lightBoxSamus{
+  background-image: url("../images/samus_bg.png");
+}
+
+#lightBoxFox{
+  background-image: url("../images/fox_bg.png");
+}
+
+#lightBoxBowser{
+  background-image: url("../images/bowser_bg.png");
 }
 
 /* toggle the lightbox on */
